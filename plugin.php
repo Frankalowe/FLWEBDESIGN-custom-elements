@@ -3,7 +3,7 @@
 /**
  * Plugin Name: FL WEB DESIGN Custom Elements
  * Plugin URI: https://flweb.design/
- * Description: Boilerplate plugin to save your custom elements created with Element Studio.
+ * Description: FL Web Design Custom elements for Breakdance
  * Author: Frank Lowe
  * Author URI: https://www.linkedin.com/in/flweb-design/
  * License: GPLv2
