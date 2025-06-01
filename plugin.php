@@ -1,43 +1,43 @@
 <?php
 
 /**
- * Plugin Name: Breakdance Custom Elements
- * Plugin URI: https://breakdance.com/
+ * Plugin Name: FL WEB DESIGN CUSTOM ELEMENTS
+ * Plugin URI: https://www.flweb.design/
  * Description: Boilerplate plugin to save your custom elements created with Element Studio.
- * Author: Breakdance
- * Author URI: https://breakdance.com/
+ * Author: Frank Lowe
+ * Author URI: https://www.flweb.design/
  * License: GPLv2
  * Text Domain: breakdance
  * Domain Path: /languages/
- * Version: 0.0.1
+ * Version: 1.0.1
  */
 
-namespace BreakdanceCustomElements;
+namespace FLWEBCustomElements;
 
 use function Breakdance\Util\getDirectoryPathRelativeToPluginFolder;
 
 add_action('breakdance_loaded', function () {
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/elements',
-        'BreakdanceCustomElements',
+        'FLWEBCustomElements',
         'element',
-        'Custom Elements',
+        'FLWEB Custom Elements',
         false
     );
 
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/macros',
-        'BreakdanceCustomElements',
+        'FLWEBCustomElements',
         'macro',
-        'Custom Macros',
+        'FLWEB Custom Macros',
         false,
     );
 
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/presets',
-        'BreakdanceCustomElements',
+        'FLWEBCustomElements',
         'preset',
-        'Custom Presets',
+        'FLWEB Custom Presets',
         false,
     );
 },
